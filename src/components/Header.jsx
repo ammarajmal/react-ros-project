@@ -5,11 +5,11 @@ class Header extends Component {
         return (
             <Container>
                 <Navbar bg="light" expand="lg">
-                            <Navbar.Brand href="#home">ROS Control Panel</Navbar.Brand>
+                            <Navbar.Brand href="/Home">ROS Control Panel</Navbar.Brand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="me-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
+                                <Nav.Link href="/Home">Home</Nav.Link>
                                 <Nav.Link href="/About">About</Nav.Link>
                                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

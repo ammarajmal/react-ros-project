@@ -3,7 +3,11 @@ import { Container } from "react-bootstrap";
 
 class Footer extends Component {
     render() {
-        return <Container><p>Footer!</p></Container>;
+        return (
+        <Container className="text-center">
+            <p>SITL &copy; 2023</p>
+        </Container>
+        );
     }
 }
 export default Footer;
